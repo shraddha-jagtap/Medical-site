@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="JAGTAP MEDICAL — human and veterinary medicines, trusted care and doctor consultations." />
+  <title>JAGTAP MEDICAL | Health for every family</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar"><span>Licensed pharmacy · Genuine medicines · Care for people & pets</span><a href="tel:+919876543210">Need help? +91 8378048439</a></div>
+  <header class="nav" id="home">
+    <a class="brand" href="#home"><span class="brand-mark">✚</span><span>JAGTAP <b>MEDICAL</b><small>PHARMACY</small></span></a>
+    <button class="menu-btn" aria-label="Open navigation">☰</button>
+    <nav><a href="#categories">Shop</a><a href="#services">Care services</a><a href="doctors.html">Doctors</a><a href="#contact">Visit us</a><a class="member-link" href="#membership">Become a member</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">YOUR NEIGHBOURHOOD HEALTH PARTNER</p>
+        <h1>Care that feels <em>closer</em> to home.</h1>
+        <p class="lead">From everyday family essentials to expert veterinary care, we make trusted health support simple, personal and nearby.</p>
+        <div class="hero-actions"><a class="button primary" href="#categories">Explore medicines <span>→</span></a><a class="button ghost" href="doctors.html">Consult a Doctor</a></div>
+        <div class="trust-row"><span>✓ Licensed & verified</span><span>✓ Prescription support</span><span>✓ Pet-friendly care</span></div>
+      </div>
+      <div class="hero-art reveal delay-1">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="care-card pet-card"><span>🐾</span><div><b>Veterinary care</b><small>For every paw & hoof</small></div></div>
+        <div class="care-card family-card"><span>♡</span><div><b>Human wellness</b><small>Care for all ages</small></div></div>
+        <div class="medicine-jar"><div class="jar-cap"></div><div class="jar-label"><span>DAILY</span><b>CARE</b><i>✚</i></div></div>
+        <div class="leaf leaf-a">❋</div><div class="leaf leaf-b">✦</div>
+      </div>
+    </section>
+
+    <section class="quick-actions reveal" aria-label="Quick services">
+      <a href="#prescription"><span class="icon teal">⌁</span><div><b>Upload prescription</b><small>We'll take care of the rest</small></div><strong>→</strong></a>
+      <a href="doctors.html"><span class="icon blue">✚</span><div><b>Talk to a doctor</b><small>Private consultations, simply</small></div><strong>→</strong></a>
+      <a href="#contact"><span class="icon gold">⌖</span><div><b>Find our store</b><small>Open today until 9:30 PM</small></div><strong>→</strong></a>
+    </section>
+
+    <section class="section categories" id="categories">
+      <div class="section-heading reveal"><p class="eyebrow">SHOP BY NEED</p><h2>One pharmacy.<br /><em>Every kind of care.</em></h2><p>Thoughtfully selected health essentials for your family and animals.</p></div>
+      <div class="category-grid">
+        <article class="category-card reveal"><div class="cat-icon allopathy">✚</div><h3>Allopathy</h3><p>Prescription medicines, OTC relief and everyday health essentials.</p><a href="#prescription">Browse care <span>→</span></a></article>
+        <article class="category-card reveal delay-1"><div class="cat-icon homeopathy">❋</div><h3>Homeopathy</h3><p>Gentle remedies and reliable guidance for holistic wellbeing.</p><a href="#prescription">Browse care <span>→</span></a></article>
+        <article class="category-card reveal delay-2"><div class="cat-icon veterinary">🐾</div><h3>Veterinary</h3><p>Medicines, supplements and essentials for companion and farm animals.</p><a href="#prescription">Browse care <span>→</span></a></article>
+        <article class="category-card reveal"><div class="cat-icon ayurveda">☘</div><h3>Ayurveda</h3><p>Traditional wellness, herbal supplements and self-care rituals.</p><a href="#prescription">Browse care <span>→</span></a></article>
+        <article class="category-card reveal delay-1"><div class="cat-icon cosmetics">✦</div><h3>Cosmetics</h3><p>Dermatologist-conscious skincare, personal care and beauty.</p><a href="#prescription">Browse care <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="consult-band" id="services">
+      <div class="consult-visual reveal"><div class="doctor-avatar">👩🏽‍⚕️</div><div class="pulse p1"></div><div class="pulse p2"></div><div class="availability"><span></span> Doctors available today</div></div>
+      <div class="consult-copy reveal delay-1"><p class="eyebrow">CARE, WHEN YOU NEED IT</p><h2>A good conversation can be the first step to feeling better.</h2><p>Connect with a qualified doctor for common health concerns, medicine questions and prescription guidance—without the waiting room.</p><a class="button light" href="doctors.html">Consult a Doctor <span>→</span></a></div>
+    </section>
+
+    <section class="section prescription" id="prescription">
+      <div class="prescription-card reveal"><div><p class="eyebrow">PRESCRIPTION MADE EASY</p><h2>Send it. We'll prepare it.</h2><p>Upload a clear prescription and our pharmacist will confirm availability and pricing with you.</p><ul><li>Pharmacist review before dispensing</li><li>Option for store pick-up or local delivery</li><li>We'll call if a clarification is needed</li></ul></div><button class="upload-zone" id="uploadBtn"><span>↑</span><b>Upload prescription</b><small>JPG, PNG or PDF · Max 10MB</small></button><input id="fileInput" type="file" accept="image/*,.pdf" hidden /></div>
+    </section>
+
+    <section class="membership section" id="membership"><div class="member-copy reveal"><p class="eyebrow">A LITTLE MORE CARE</p><h2>Become a Jagtap Care Circle member.</h2><p>For families who make wellness a habit. Get member-only savings, refill reminders, a medicine history and priority support.</p><a class="button primary" href="#join">Join Jagtap Care Circle <span>→</span></a></div><div class="member-perks reveal delay-1"><div><b>5%</b><span>extra savings<br />on regular orders</span></div><div><b>Free</b><span>local delivery<br />on eligible orders</span></div><div><b>24/7</b><span>medicine reminders<br />for peace of mind</span></div></div></section>
+
+    <section class="section why-us"><div class="section-heading reveal"><p class="eyebrow">THE JAGTAP PROMISE</p><h2>Trust is our<br /><em>most important medicine.</em></h2></div><div class="promise-list"><article class="reveal"><span>01</span><div><h3>Genuine, handled with care</h3><p>We source through authorised channels and store every product responsibly.</p></div></article><article class="reveal delay-1"><span>02</span><div><h3>A pharmacist who knows you</h3><p>Warm, practical support for questions big and small—without the jargon.</p></div></article><article class="reveal delay-2"><span>03</span><div><h3>Care for every member</h3><p>Human medicines, animal health and wellness essentials in one trusted place.</p></div></article></div></section>
+
+    <section class="section contact" id="contact"><div class="contact-panel reveal"><div><p class="eyebrow">COME SAY HELLO</p><h2>Your local<br /><em>health corner.</em></h2><p class="address">Jagtap Medical, Budh <br />Satara, India — 415503</p><a href="https://maps.app.goo.gl/awqZu6zBzeh5oddT7" class="text-link">Get directions ↗</a></div><div class="contact-details"><div><span>CALL OR WHATSAPP</span><a href="tel:+918378048439">+91 8378048439</a></div><div><span>PHARMACY OWNER</span><b>Drx. Prajwal Jagtap</b><small>Licensed Pharmacist </small></div><div><span>EMAIL</span><a href="prajwaljagtap000@gmail.com in">prajwaljagtap000@gmail.com </a><div>
+  <span>INSTAGRAM</span>
+  <a href="https://www.instagram.com/jagtap_medical?stkn=MW16eDhzZ2lnZ3FmbA=="
+     target="_blank"
+     rel="noopener">
+    @jagtap_medical
+  </a>
+</div></div></div></div><aside class="hours reveal delay-1"><p class="eyebrow">STORE HOURS</p><div><span>Monday – Saturday</span><b>8:00 AM – 9:30 PM</b></div><div><span>Sunday</span><b>9:00 AM – 2:00 PM</b></div><small>For urgent questions outside these hours, use the care chat.</small></aside></section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">✚</span><span>JAGTAP <b>MEDICAL</b><small>PHARMACY</small></span></a><p>Thoughtful health support for people, pets and every day.</p><span>© 2026 JAGTAP MEDICAL</span></footer>
+
+  <button class="chat-toggle" id="chatToggle" aria-label="Open Jagtap AI assistant"><span>✦</span><i></i></button>
+  <section class="chatbox" id="chatbox" aria-label="Jagtap AI assistant"><header><div><span class="bot-mark">✦</span><b>Jagtap Assistant</b><small>Usually replies instantly</small></div><button id="closeChat">×</button></header><div class="messages" id="messages"><div class="message bot">Namaste! I can help with store timings, medicine categories, prescriptions, or connecting you to our team.</div><div class="suggestions"><button>Store hours</button><button>Vet medicines</button><button>Upload prescription</button></div></div><form id="chatForm"><input id="chatInput" placeholder="Ask anything about your care…" autocomplete="off" /><button aria-label="Send message">↑</button></form></section>
+  <script src="script.js"></script>
+</body>
+</html>

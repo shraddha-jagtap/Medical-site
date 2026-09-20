@@ -1,0 +1,18 @@
+{
+  "name": "jagtap-medical",
+  "version": "1.0.0",
+  "private": true,
+  "description": "JAGTAP MEDICAL — pharmacy website with a safe, GenAI-ready assistant.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "check": "node --check server/server.js && node --check server/chatbot.js && node --check server/database.js && node --check server/safety.js && node --check script.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.3",
+    "sqlite3": "^5.1.7"
+  }
+}
